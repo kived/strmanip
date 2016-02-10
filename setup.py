@@ -8,7 +8,7 @@ setup(name='StrManip',
       url='https://github.com/kived/strmanip',
 
       py_modules=['strmanip'],
-      requires=['Kivy>=1.9.1'],
+      requires=['Kivy (>=1.9.1)'],
 
       download_url='https://github.com/kived/strmanip/tarball/1.0',
       keywords=['tool', 'clipboard', 'string'],
