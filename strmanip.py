@@ -111,7 +111,7 @@ class StrManipApp(App):
 			cbbtn.parent.remove_widget(cbbtn)
 		if not text:
 			text = Clipboard.copy()
-		root.ids.source.text = text
+		root.ids.source.text = text or ''
 		root.ids.manip.focus = True
 
 	def apply_manip(self):
